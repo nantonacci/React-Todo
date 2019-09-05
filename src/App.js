@@ -43,7 +43,6 @@ class App extends React.Component {
     });
   };
 
-  //toggle
   toggleItem = itemID => {
     this.setState({
       todo: this.state.todo.map(item => {

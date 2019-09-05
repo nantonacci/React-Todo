@@ -6,7 +6,23 @@ App {
   text-align: center;
 }
 
+h2 {
+  color: #4c1321;
+}
+
 .item.completed {
   text-decoration: line-through;
   color: #666364;
+}
+
+input {
+  border-radius: 3px;
+  padding: 2px;
+}
+
+button {
+  background-color: #5bbbbd;
+  border: 1px solid #288183;
+  border-radius: 3px;
+  padding: 3px;
 }
