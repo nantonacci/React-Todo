@@ -8,9 +8,11 @@ import Todo from './Todo.js';
 const TodoList = props => {
   return (
     <div className="todo-list">
-      {props.todo.map(item => (
-        <Todo key={item.id} item={item} toggleItem={props.toggleItem} />
-      ))}
+      <div className="item-cont">
+        {props.todo.map(item => (
+          <Todo key={item.id} item={item} toggleItem={props.toggleItem} />
+        ))}
+      </div>
       <button onClick={props.clearCompleted}>Clear Completed</button>
     </div>
   );
